@@ -1,0 +1,45 @@
+NAME
+    Bundle::JONASBN - Collection of modules often used by jonasbn
+
+SYNOPSIS
+        perl -MCPAN -e 'install Bundle::JONASBN'
+
+CONTENTS
+    * YAML
+    * Tie::IxHash
+    * XML::Simple
+    * Perl::Tidy
+    * ExtUtils::Install, 1.47
+    * Test::Pod, 1.14
+    * Test::Perl::Critic
+    * Error
+    * Module::Load
+    * File::Path
+    * Module::Build, 0.35
+    * Test::Kwalitee
+    * List::MoreUtils
+    * Module::Info::File
+    * DBI
+    * Test::Exception
+    * Test::Pod::Coverage, 1.04
+    * Hash::Merge
+    * Data::Dumper
+    * Template
+    * Date::Calc
+    * Test::More
+    * Spreadsheet::WriteExcel
+    * Params::Validate, 0.85
+    * AppConfig
+    * JSON
+    * Cwd
+SEE ALSO
+    * Bundle::COG
+AUTHOR
+    Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
+
+COPYRIGHT & LICENSE
+    Copyright 2009 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
