@@ -1,6 +1,6 @@
 package Bundle::JONASBN;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -20,59 +20,71 @@ Bundle::JONASBN - Collection of modules often used by jonasbn
 
 =over
 
-=item * L<YAML>
+=item * L<AppConfig>
 
-=item * L<Tie::IxHash>
-
-=item * L<XML::Simple>
-
-=item * L<Perl::Tidy>
-
-=item * L<ExtUtils::Install>, 1.47
-
-=item * L<Test::Pod>, 1.14
-
-=item * L<Test::Perl::Critic>
-
-=item * L<Error>
-
-=item * L<Module::Load>
-
-=item * L<File::Path>
-
-=item * L<Module::Build>, 0.35
-
-=item * L<Test::Kwalitee>
-
-=item * L<List::MoreUtils>
-
-=item * L<Module::Info::File>
+=item * L<Cwd>
 
 =item * L<DBI>
 
-=item * L<Test::Exception>
-
-=item * L<Test::Pod::Coverage>, 1.04
-
-=item * L<Hash::Merge>
-
 =item * L<Data::Dumper>
-
-=item * L<Template>
 
 =item * L<Date::Calc>
 
-=item * L<Test::More>
+=item * L<Devel::Cover>
 
-=item * L<Spreadsheet::WriteExcel>
+=item * L<Error>
 
-=item * L<Params::Validate>, 0.85
+=item * L<ExtUtils::Install>, 1.47
 
-=item * L<AppConfig>
+=item * L<File::Path>
+
+=item * L<File::Slurp>
+
+=item * L<Hash::Merge>
 
 =item * L<JSON>
 
-=item * L<Cwd>
+=item * L<List::MoreUtils>
+
+=item * L<Module::Build>, 0.35
+
+=item * L<Module::Info::File>
+
+=item * L<Module::Load>
+
+=item * L<Params::Validate>, 0.85
+
+=item * L<Perl::Tidy>
+
+=item * L<Spreadsheet::WriteExcel>
+
+=item * L<Template>
+
+=item * L<Test::Exception>
+
+=item * L<Test::Kwalitee>
+
+=item * L<Test::MockObject::Extends>
+
+=item * L<Test::More>
+
+=item * L<Test::Perl::Critic>
+
+=item * L<Test::Pod>, 1.14
+
+=item * L<Test::Pod::Coverage>, 1.04
+
+=item * L<Test::Prereq>
+
+=item * L<Tie::IxHash>
+
+=item * L<WWW::Mechanize>
+
+=item * L<WWW::Mechanize::Cached>
+
+=item * L<XML::Simple>
+
+=item * L<YAML>
 
 =back
 

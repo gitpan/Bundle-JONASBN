@@ -1,6 +1,6 @@
 package Module::Build::Bundle;
 
-# $Id: Bundle.pm 6606 2009-09-28 10:33:04Z jonasbn $
+# $Id: Bundle.pm 6681 2009-10-05 08:36:32Z jonasbn $
 
 use strict;
 use warnings;
@@ -9,19 +9,25 @@ use base 'Module::Build';
 use Module::Build::Base;
 use Carp qw(croak);
 use Cwd qw(getcwd);
+use Tie::IxHash;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub ACTION_contents {
     my $self = shift;
     
     #Fetching requirements from Build.PL
-    my $hash_ref = $self->requires();
+    my @list = %{$self->requires()};
+    
+    my $sorted = 'Tie::IxHash'->new(@list);
+    $sorted->SortByKey();
     
     my $pod = "=head1 CONTENTS\n\n=over\n\n";
-    foreach my $key (keys %{$hash_ref}) {
-        if ($hash_ref->{$key}) {
-            $pod .= "=item * L<$key>, $hash_ref->{$key}\n\n";
+    foreach ($sorted->Keys) {
+        my ($key, $val) = $sorted->Shift();
+        
+        if ($val) {
+            $pod .= "=item * L<$key>, $val\n\n";
         } else {
             $pod .= "=item * L<$key>\n\n";
         }

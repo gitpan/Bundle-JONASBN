@@ -5,33 +5,39 @@ SYNOPSIS
         perl -MCPAN -e 'install Bundle::JONASBN'
 
 CONTENTS
-    * YAML
-    * Tie::IxHash
-    * XML::Simple
-    * Perl::Tidy
-    * ExtUtils::Install, 1.47
-    * Test::Pod, 1.14
-    * Test::Perl::Critic
-    * Error
-    * Module::Load
-    * File::Path
-    * Module::Build, 0.35
-    * Test::Kwalitee
-    * List::MoreUtils
-    * Module::Info::File
-    * DBI
-    * Test::Exception
-    * Test::Pod::Coverage, 1.04
-    * Hash::Merge
-    * Data::Dumper
-    * Template
-    * Date::Calc
-    * Test::More
-    * Spreadsheet::WriteExcel
-    * Params::Validate, 0.85
     * AppConfig
-    * JSON
     * Cwd
+    * DBI
+    * Data::Dumper
+    * Date::Calc
+    * Devel::Cover
+    * Error
+    * ExtUtils::Install, 1.47
+    * File::Path
+    * File::Slurp
+    * Hash::Merge
+    * JSON
+    * List::MoreUtils
+    * Module::Build, 0.35
+    * Module::Info::File
+    * Module::Load
+    * Params::Validate, 0.85
+    * Perl::Tidy
+    * Spreadsheet::WriteExcel
+    * Template
+    * Test::Exception
+    * Test::Kwalitee
+    * Test::MockObject::Extends
+    * Test::More
+    * Test::Perl::Critic
+    * Test::Pod, 1.14
+    * Test::Pod::Coverage, 1.04
+    * Test::Prereq
+    * Tie::IxHash
+    * WWW::Mechanize
+    * WWW::Mechanize::Cached
+    * XML::Simple
+    * YAML
 SEE ALSO
     * Bundle::COG
 AUTHOR
