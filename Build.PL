@@ -1,6 +1,6 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 6681 2009-10-05 08:36:32Z jonasbn $
+# $Id: Build.PL 6721 2009-10-08 18:56:33Z jonasbn $
 
 use strict;
 use warnings;
@@ -15,10 +15,15 @@ my $build = Module::Build::Bundle->new(
     create_readme => 1,
     requires      => {
         'AppConfig'                 => '0',
+        'CPAN::Mini'                => '0',
+        'CPAN::Reporter'            => '0',
         'Cwd'                       => '0',
+        'DBD::Mock'                 => '0',
         'DBI'                       => '0',
         'Data::Dumper'              => '0',
+        'Data::FormValidator'       => '0',
         'Date::Calc'                => '0',
+        'DateTime'                  => '0',
         'Devel::Cover'              => '0',
         'Error'                     => '0',
         'ExtUtils::Install'         => '1.47',
@@ -32,6 +37,7 @@ my $build = Module::Build::Bundle->new(
         'Module::Load'              => '0',
         'Params::Validate'          => '0.85',
         'Perl::Tidy'                => '0',
+        'Pod::Simple::Wiki'         => '0',
         'Spreadsheet::WriteExcel'   => '0',
         'Template'                  => '0',
         'Test::Exception'           => '0',

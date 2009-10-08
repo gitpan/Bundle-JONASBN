@@ -1,6 +1,6 @@
 package Bundle::JONASBN;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 1;
 
@@ -22,13 +22,23 @@ Bundle::JONASBN - Collection of modules often used by jonasbn
 
 =item * L<AppConfig>
 
+=item * L<CPAN::Mini>
+
+=item * L<CPAN::Reporter>
+
 =item * L<Cwd>
+
+=item * L<DBD::Mock>
 
 =item * L<DBI>
 
 =item * L<Data::Dumper>
 
+=item * L<Data::FormValidator>
+
 =item * L<Date::Calc>
+
+=item * L<DateTime>
 
 =item * L<Devel::Cover>
 
@@ -55,6 +65,8 @@ Bundle::JONASBN - Collection of modules often used by jonasbn
 =item * L<Params::Validate>, 0.85
 
 =item * L<Perl::Tidy>
+
+=item * L<Pod::Simple::Wiki>
 
 =item * L<Spreadsheet::WriteExcel>
 

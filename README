@@ -6,10 +6,15 @@ SYNOPSIS
 
 CONTENTS
     * AppConfig
+    * CPAN::Mini
+    * CPAN::Reporter
     * Cwd
+    * DBD::Mock
     * DBI
     * Data::Dumper
+    * Data::FormValidator
     * Date::Calc
+    * DateTime
     * Devel::Cover
     * Error
     * ExtUtils::Install, 1.47
@@ -23,6 +28,7 @@ CONTENTS
     * Module::Load
     * Params::Validate, 0.85
     * Perl::Tidy
+    * Pod::Simple::Wiki
     * Spreadsheet::WriteExcel
     * Template
     * Test::Exception

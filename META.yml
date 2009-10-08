@@ -1,6 +1,6 @@
 ---
 name: Bundle-JONASBN
-version: 0.02
+version: 0.03
 author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
 abstract: Collection of modules often used by jonasbn
@@ -11,10 +11,15 @@ resources:
   repository: http://logicLAB.jira.com/svn/BJONASBN
 requires:
   AppConfig: 0
+  CPAN::Mini: 0
+  CPAN::Reporter: 0
   Cwd: 0
+  DBD::Mock: 0
   DBI: 0
   Data::Dumper: 0
+  Data::FormValidator: 0
   Date::Calc: 0
+  DateTime: 0
   Devel::Cover: 0
   Error: 0
   ExtUtils::Install: 1.47
@@ -28,6 +33,7 @@ requires:
   Module::Load: 0
   Params::Validate: 0.85
   Perl::Tidy: 0
+  Pod::Simple::Wiki: 0
   Spreadsheet::WriteExcel: 0
   Template: 0
   Test::Exception: 0
@@ -48,7 +54,7 @@ configure_requires:
 provides:
   Bundle::JONASBN:
     file: lib/Bundle/JONASBN.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

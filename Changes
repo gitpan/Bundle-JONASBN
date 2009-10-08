@@ -1,6 +1,21 @@
 Changes file for Bundle::JONASBN
 
-0.02, released 05.10.2009 - Update not necessary
+0.03, released 08.10.2009 - Update not required
+
+- Add DataFormValidator [BJONASBN-13]
+
+- Add CPAN::Mini [BJONASBN-14] 
+
+- Add CPAN::Reporter [BJONASBN-15] 
+
+- Add Pod::Simple::Wiki [BJONASBN-11] 
+
+- Add DBD:.Mock [BJONASBN-9] 
+
+- Add DateTime [BJONASBN-10] 
+
+
+0.02, released 05.10.2009 - Update not required
 
 - Added sorting to Build contents action [BJONASBN-7]
 
