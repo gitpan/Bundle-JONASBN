@@ -5,47 +5,93 @@ SYNOPSIS
         perl -MCPAN -e 'install Bundle::JONASBN'
 
 CONTENTS
-    * AppConfig
-    * CPAN::Mini
-    * CPAN::Reporter
-    * Cwd
-    * DBD::Mock
-    * DBI
-    * Data::Dumper
-    * Data::FormValidator
-    * Date::Calc
-    * DateTime
-    * Devel::Cover
-    * Error
-    * ExtUtils::Install, 1.47
-    * File::Path
-    * File::Slurp
-    * Hash::Merge
-    * JSON
-    * List::MoreUtils
-    * Module::Build, 0.35
-    * Module::Info::File
-    * Module::Load
-    * Params::Validate, 0.85
-    * Perl::Tidy
-    * Pod::Simple::Wiki
-    * Spreadsheet::WriteExcel
-    * Template
-    * Test::Exception
-    * Test::Kwalitee
-    * Test::MockObject::Extends
-    * Test::More
-    * Test::Perl::Critic
-    * Test::Pod, 1.14
-    * Test::Pod::Coverage, 1.04
-    * Test::Prereq
-    * Tie::IxHash
-    * WWW::Mechanize
-    * WWW::Mechanize::Cached
-    * XML::Simple
-    * YAML
+    AppConfig
+
+    CPAN::Mini
+
+    CPAN::Reporter
+
+    Class::Accessor
+
+    Cwd
+
+    DBD::Mock
+
+    DBI
+
+    Data::Dumper
+
+    Data::FormValidator
+
+    Date::Calc
+
+    DateTime
+
+    Devel::Cover
+
+    Error
+
+    ExtUtils::Install, 1.47
+
+    File::Path
+
+    File::Slurp
+
+    Hash::Merge
+
+    JSON
+
+    List::MoreUtils
+
+    Module::Build, 0.35
+
+    Module::Info::File
+
+    Module::Load
+
+    Params::Validate, 0.85
+
+    Perl::Tidy
+
+    Pod::Simple::Wiki
+
+    Spreadsheet::WriteExcel
+
+    Template
+
+    Term::ReadLine::Perl
+
+    Test::Class
+
+    Test::Exception
+
+    Test::Kwalitee
+
+    Test::MockObject::Extends
+
+    Test::More
+
+    Test::Perl::Critic
+
+    Test::Pod, 1.14
+
+    Test::Pod::Coverage, 1.04
+
+    Test::Prereq
+
+    Tie::IxHash
+
+    WWW::Mechanize
+
+    WWW::Mechanize::Cached
+
+    XML::Simple
+
+    YAML
+
 SEE ALSO
     * Bundle::COG
+
 AUTHOR
     Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
 

@@ -1,6 +1,6 @@
 package Module::Build::Bundle;
 
-# $Id: Bundle.pm 6681 2009-10-05 08:36:32Z jonasbn $
+# $Id: Bundle.pm 6906 2010-01-15 21:03:05Z jonasbn $
 
 use strict;
 use warnings;
@@ -27,9 +27,9 @@ sub ACTION_contents {
         my ($key, $val) = $sorted->Shift();
         
         if ($val) {
-            $pod .= "=item * L<$key>, $val\n\n";
+            $pod .= "$key, $val\n\n";
         } else {
-            $pod .= "=item * L<$key>\n\n";
+            $pod .= "$key\n\n";
         }
     }
     $pod .= "=back\n\n=head1 SEE ALSO";

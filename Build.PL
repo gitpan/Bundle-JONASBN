@@ -1,6 +1,6 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 6721 2009-10-08 18:56:33Z jonasbn $
+# $Id: Build.PL 6904 2010-01-15 20:56:03Z jonasbn $
 
 use strict;
 use warnings;
@@ -15,6 +15,7 @@ my $build = Module::Build::Bundle->new(
     create_readme => 1,
     requires      => {
         'AppConfig'                 => '0',
+        'Class::Accessor'           => '0',
         'CPAN::Mini'                => '0',
         'CPAN::Reporter'            => '0',
         'Cwd'                       => '0',
@@ -40,6 +41,7 @@ my $build = Module::Build::Bundle->new(
         'Pod::Simple::Wiki'         => '0',
         'Spreadsheet::WriteExcel'   => '0',
         'Template'                  => '0',
+        'Test::Class'               => '0',
         'Test::Exception'           => '0',
         'Test::Kwalitee'            => '0',
         'Test::MockObject::Extends' => '0',
@@ -48,6 +50,7 @@ my $build = Module::Build::Bundle->new(
         'Test::Pod'                 => '1.14',
         'Test::Pod::Coverage'       => '1.04',
         'Test::Prereq'              => '0',
+        'Term::ReadLine::Perl'      => '0',
         'Tie::IxHash'               => '0', #used in dist
         'WWW::Mechanize'            => '0',
         'WWW::Mechanize::Cached'    => '0',

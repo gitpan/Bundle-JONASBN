@@ -1,18 +1,24 @@
 ---
-name: Bundle-JONASBN
-version: 0.03
+abstract: 'Collection of modules often used by jonasbn'
 author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
-abstract: Collection of modules often used by jonasbn
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
 license: artistic
-resources:
-  homepage: http://logicLAB.jira.com/browse/BJONASBN
-  license: http://www.perlfoundation.org/artistic_license_1_0
-  repository: http://logicLAB.jira.com/svn/BJONASBN
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bundle-JONASBN
+provides:
+  Bundle::JONASBN:
+    file: lib/Bundle/JONASBN.pm
+    version: 0.04
 requires:
   AppConfig: 0
   CPAN::Mini: 0
   CPAN::Reporter: 0
+  Class::Accessor: 0
   Cwd: 0
   DBD::Mock: 0
   DBI: 0
@@ -36,6 +42,8 @@ requires:
   Pod::Simple::Wiki: 0
   Spreadsheet::WriteExcel: 0
   Template: 0
+  Term::ReadLine::Perl: 0
+  Test::Class: 0
   Test::Exception: 0
   Test::Kwalitee: 0
   Test::MockObject::Extends: 0
@@ -49,13 +57,8 @@ requires:
   WWW::Mechanize::Cached: 0
   XML::Simple: 0
   YAML: 0
-configure_requires:
-  Module::Build: 0.35
-provides:
-  Bundle::JONASBN:
-    file: lib/Bundle/JONASBN.pm
-    version: 0.03
-generated_by: Module::Build version 0.35
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+resources:
+  homepage: http://logicLAB.jira.com/browse/BJONASBN
+  license: http://www.perlfoundation.org/artistic_license_1_0
+  repository: http://logicLAB.jira.com/svn/BJONASBN
+version: 0.04

@@ -7,3 +7,4 @@ META.yml
 Module/Build/Bundle.pm
 README
 t/load.t
+t/pod.t

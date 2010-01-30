@@ -1,6 +1,6 @@
 package Bundle::JONASBN;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 1;
 
@@ -18,87 +18,89 @@ Bundle::JONASBN - Collection of modules often used by jonasbn
 
 =head1 CONTENTS
 
-=over
+AppConfig
 
-=item * L<AppConfig>
+CPAN::Mini
 
-=item * L<CPAN::Mini>
+CPAN::Reporter
 
-=item * L<CPAN::Reporter>
+Class::Accessor
 
-=item * L<Cwd>
+Cwd
 
-=item * L<DBD::Mock>
+DBD::Mock
 
-=item * L<DBI>
+DBI
 
-=item * L<Data::Dumper>
+Data::Dumper
 
-=item * L<Data::FormValidator>
+Data::FormValidator
 
-=item * L<Date::Calc>
+Date::Calc
 
-=item * L<DateTime>
+DateTime
 
-=item * L<Devel::Cover>
+Devel::Cover
 
-=item * L<Error>
+Error
 
-=item * L<ExtUtils::Install>, 1.47
+ExtUtils::Install, 1.47
 
-=item * L<File::Path>
+File::Path
 
-=item * L<File::Slurp>
+File::Slurp
 
-=item * L<Hash::Merge>
+Hash::Merge
 
-=item * L<JSON>
+JSON
 
-=item * L<List::MoreUtils>
+List::MoreUtils
 
-=item * L<Module::Build>, 0.35
+Module::Build, 0.35
 
-=item * L<Module::Info::File>
+Module::Info::File
 
-=item * L<Module::Load>
+Module::Load
 
-=item * L<Params::Validate>, 0.85
+Params::Validate, 0.85
 
-=item * L<Perl::Tidy>
+Perl::Tidy
 
-=item * L<Pod::Simple::Wiki>
+Pod::Simple::Wiki
 
-=item * L<Spreadsheet::WriteExcel>
+Spreadsheet::WriteExcel
 
-=item * L<Template>
+Template
 
-=item * L<Test::Exception>
+Term::ReadLine::Perl
 
-=item * L<Test::Kwalitee>
+Test::Class
 
-=item * L<Test::MockObject::Extends>
+Test::Exception
 
-=item * L<Test::More>
+Test::Kwalitee
 
-=item * L<Test::Perl::Critic>
+Test::MockObject::Extends
 
-=item * L<Test::Pod>, 1.14
+Test::More
 
-=item * L<Test::Pod::Coverage>, 1.04
+Test::Perl::Critic
 
-=item * L<Test::Prereq>
+Test::Pod, 1.14
 
-=item * L<Tie::IxHash>
+Test::Pod::Coverage, 1.04
 
-=item * L<WWW::Mechanize>
+Test::Prereq
 
-=item * L<WWW::Mechanize::Cached>
+Tie::IxHash
 
-=item * L<XML::Simple>
+WWW::Mechanize
 
-=item * L<YAML>
+WWW::Mechanize::Cached
 
-=back
+XML::Simple
+
+YAML
 
 =head1 SEE ALSO
 

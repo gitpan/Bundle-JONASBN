@@ -1,5 +1,11 @@
 Changes file for Bundle::JONASBN
 
+- Added POD syntax test to test suite
+
+- Addressed failing tests, my perception of a bundle does not seem to be a
+real bundle
+
+
 0.03, released 08.10.2009 - Update not required
 
 - Add DataFormValidator [BJONASBN-13]
