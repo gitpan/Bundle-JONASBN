@@ -13,7 +13,7 @@ name: Bundle-JONASBN
 provides:
   Bundle::JONASBN:
     file: lib/Bundle/JONASBN.pm
-    version: 0.04
+    version: 0.05
 requires:
   AppConfig: 0
   CPAN::Mini: 0
@@ -61,4 +61,4 @@ resources:
   homepage: http://logicLAB.jira.com/browse/BJONASBN
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/BJONASBN
-version: 0.04
+version: 0.05

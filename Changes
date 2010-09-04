@@ -1,5 +1,18 @@
 Changes file for Bundle::JONASBN
 
+Project site changelog:
+
+http://logicLAB.jira.com/browse/BJONASBN#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
+
+0.05, released 04.09.2010 - Update not required
+
+- This distribution is deprecated and it will be removed from CPAN sometime
+  in the future. Please refer to Task::BeLike::JONASBN, which have taken
+  this distribution's place
+
+
+0.04, released 30.01.2010 - Update required
+
 - Added POD syntax test to test suite
 
 - Addressed failing tests, my perception of a bundle does not seem to be a
@@ -8,17 +21,17 @@ real bundle
 
 0.03, released 08.10.2009 - Update not required
 
-- Add DataFormValidator [BJONASBN-13]
+- Added DataFormValidator [BJONASBN-13]
 
-- Add CPAN::Mini [BJONASBN-14] 
+- Added CPAN::Mini [BJONASBN-14] 
 
-- Add CPAN::Reporter [BJONASBN-15] 
+- Added CPAN::Reporter [BJONASBN-15] 
 
-- Add Pod::Simple::Wiki [BJONASBN-11] 
+- Added Pod::Simple::Wiki [BJONASBN-11] 
 
-- Add DBD:.Mock [BJONASBN-9] 
+- Added DBD:.Mock [BJONASBN-9] 
 
-- Add DateTime [BJONASBN-10] 
+- Added DateTime [BJONASBN-10] 
 
 
 0.02, released 05.10.2009 - Update not required

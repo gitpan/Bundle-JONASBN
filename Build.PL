@@ -1,6 +1,6 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 6904 2010-01-15 20:56:03Z jonasbn $
+# $Id: Build.PL 7178 2010-09-04 17:30:25Z jonasbn $
 
 use strict;
 use warnings;

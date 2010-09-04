@@ -3,8 +3,8 @@ Changes
 lib/Bundle/JONASBN.pm
 MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
 Module/Build/Bundle.pm
-README
 t/load.t
 t/pod.t
+README
+META.yml
