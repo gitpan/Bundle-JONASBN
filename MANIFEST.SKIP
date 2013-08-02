@@ -49,3 +49,4 @@ Bundle-JONASBN.kpf
 spikes
 ^MYMETA.yml$
 \.kpf$
+^MYMETA\.json$

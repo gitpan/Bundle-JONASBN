@@ -90,10 +90,10 @@ CONTENTS
     YAML
 
 SEE ALSO
-    * Bundle::COG
+    *   Bundle::COG
 
 AUTHOR
-    Jonas B. Nielsen (jonasbn), `<jonasbn@cpan.org>'
+    Jonas B. Nielsen (jonasbn), "<jonasbn@cpan.org>"
 
 COPYRIGHT & LICENSE
     Copyright 2009 Jonas B. Nielsen (jonasbn), All Rights Reserved.

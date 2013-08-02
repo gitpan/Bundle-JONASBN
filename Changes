@@ -4,14 +4,35 @@ Project site changelog:
 
 http://logicLAB.jira.com/browse/BJONASBN#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
-0.05, released 04.09.2010 - Update not required
+0.06 2013-08-02
+
+- Update not required
+
+- Fixed up Changes file as part of my Questhub quest adhering to the standard
+  described in: CPAN::Changes::Spec [BJONASBN-51]
+
+  Quest: http://questhub.io/realm/perl/quest/51f0fd8e18ba7dcf4b000040
+  Spec: https://metacpan.org/module/CPAN::Changes::Spec
+  
+  https://logiclab.jira.com/browse/BJONASBN-51
+  
+- This release will not be merged into trunk since the same work has been
+  done for the Task::BeLike::JONASBN, spin off from this distribution
+  See series 1.XX
+  
+
+0.05 2010-09-04
+
+- Update not required
 
 - This distribution is deprecated and it will be removed from CPAN sometime
   in the future. Please refer to Task::BeLike::JONASBN, which have taken
   this distribution's place
 
 
-0.04, released 30.01.2010 - Update required
+0.04 2010-01-30
+
+- Update required
 
 - Added POD syntax test to test suite
 
@@ -19,7 +40,9 @@ http://logicLAB.jira.com/browse/BJONASBN#selectedTab=com.atlassian.jira.plugin.s
 real bundle
 
 
-0.03, released 08.10.2009 - Update not required
+0.03 2009-10-08
+
+- Update not required
 
 - Added DataFormValidator [BJONASBN-13]
 
@@ -34,7 +57,9 @@ real bundle
 - Added DateTime [BJONASBN-10] 
 
 
-0.02, released 05.10.2009 - Update not required
+0.02 2009-10-05
+
+- Update not required
 
 - Added sorting to Build contents action [BJONASBN-7]
 
@@ -51,6 +76,6 @@ real bundle
 - Added Changes file [BJONASBN-8] 
 
 
-0.01, released 28.09.2009
+0.01 2009-09-28
 
 - Initial release

@@ -2,9 +2,11 @@
 abstract: 'Collection of modules often used by jonasbn'
 author:
   - 'Jonas B. Nielsen (jonasbn), <jonasbn@cpan.org>'
+build_requires: {}
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+  Module::Build::Bundle: 0.11
+dynamic_config: 1
+generated_by: 'Module::Build::Bundle version 0.11, CPAN::Meta::Converter version 2.131560'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -13,7 +15,7 @@ name: Bundle-JONASBN
 provides:
   Bundle::JONASBN:
     file: lib/Bundle/JONASBN.pm
-    version: 0.05
+    version: 0.06
 requires:
   AppConfig: 0
   CPAN::Mini: 0
@@ -61,4 +63,4 @@ resources:
   homepage: http://logicLAB.jira.com/browse/BJONASBN
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/BJONASBN
-version: 0.05
+version: 0.06
