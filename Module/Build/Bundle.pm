@@ -1,6 +1,6 @@
 package Module::Build::Bundle;
 
-# $Id: Bundle.pm 8188 2013-08-02 08:18:22Z jonasbn $
+# $Id$
 
 use strict;
 use warnings;

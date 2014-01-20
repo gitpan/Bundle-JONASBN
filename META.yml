@@ -6,7 +6,7 @@ build_requires: {}
 configure_requires:
   Module::Build::Bundle: 0.11
 dynamic_config: 1
-generated_by: 'Module::Build::Bundle version 0.11, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Module::Build::Bundle version 0.11, CPAN::Meta::Converter version 2.132830'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +15,7 @@ name: Bundle-JONASBN
 provides:
   Bundle::JONASBN:
     file: lib/Bundle/JONASBN.pm
-    version: 0.06
+    version: 0.07
 requires:
   AppConfig: 0
   CPAN::Mini: 0
@@ -59,8 +59,9 @@ requires:
   WWW::Mechanize::Cached: 0
   XML::Simple: 0
   YAML: 0
+  perl: v5.6.0
 resources:
   homepage: http://logicLAB.jira.com/browse/BJONASBN
   license: http://www.perlfoundation.org/artistic_license_1_0
   repository: http://logicLAB.jira.com/svn/BJONASBN
-version: 0.06
+version: 0.07

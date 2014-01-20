@@ -4,6 +4,15 @@ Project site changelog:
 
 http://logicLAB.jira.com/browse/BJONASBN#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
+0.07 2014-01-20
+
+- Update not required
+
+- Added use of strict and warnings addressing CPANTS/kwalitee rating
+
+- Specified Perl version 5.6.0
+
+
 0.06 2013-08-02
 
 - Update not required

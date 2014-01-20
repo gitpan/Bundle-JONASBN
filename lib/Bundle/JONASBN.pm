@@ -1,6 +1,9 @@
 package Bundle::JONASBN;
 
-$VERSION = '0.06';
+use strict;
+use warnings;
+
+our $VERSION = '0.07';
 
 1;
 
@@ -116,7 +119,7 @@ Jonas B. Nielsen (jonasbn), C<< <jonasbn@cpan.org> >>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Jonas B. Nielsen (jonasbn), All Rights Reserved.
+Copyright 2009-2014 Jonas B. Nielsen (jonasbn), All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

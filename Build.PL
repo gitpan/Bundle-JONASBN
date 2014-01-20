@@ -1,9 +1,10 @@
 # Build.PL for Bundle-JONASBN
 
-# $Id: Build.PL 8188 2013-08-02 08:18:22Z jonasbn $
+# $Id$
 
 use strict;
 use warnings;
+
 use Module::Build::Bundle;
 
 our $VERSION = '0.01';
@@ -56,6 +57,7 @@ my $build = Module::Build::Bundle->new(
         'WWW::Mechanize::Cached'    => '0',
         'XML::Simple'               => '0',
         'YAML'                      => '0',
+        'perl'                      => '5.6.0',
     },
     meta_merge => {
         resources => {
